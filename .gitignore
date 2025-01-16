@@ -22,7 +22,8 @@ yarn-error.log
 /.fleet
 /.idea
 docker-compose.override.yml
-
+*.tsbuildinfo
+/dist
 
 /.*/
 /.buildpath
