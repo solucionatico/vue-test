@@ -5,7 +5,7 @@
       <img src="./assets/micasino.png" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <FormComponent :fieldDefinitions=fieldDefinitions />
+  <FormComponent :fieldDefinitions="fieldDefinitions" />
 </template>
 <script setup lang="ts">
 import FormComponent from './components/FormComponent.vue';
@@ -17,7 +17,7 @@ let fieldDefinitions = [
     type: 'Text',
     required: true,
   },
-  /* {
+  {
     id: 'options',
     label: 'Options',
       type: 'SelectUnselect',
@@ -36,7 +36,7 @@ let fieldDefinitions = [
         },
       ],
     required: true,
-  } */
+  }
 ];
 </script>
 <style scoped>
